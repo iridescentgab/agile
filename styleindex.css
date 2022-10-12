@@ -1,0 +1,31 @@
+img.block {
+    display: block!important;
+}
+    
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    font-family: SoDoSans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "calt";
+}
